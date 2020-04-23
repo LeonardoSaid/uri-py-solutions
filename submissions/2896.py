@@ -1,0 +1,9 @@
+t = int(input())
+
+while t > 0:
+    
+    x,y = map(int, input().split())
+    
+    print( x%y + x//y )
+    
+    t -= 1

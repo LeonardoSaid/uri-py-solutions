@@ -5,7 +5,7 @@ while True:
     s = input().split()
     if s[0] == 'FIM':
         break
-
+    
     if s[1] == 'YES' and (len(s[0]), s[0]) not in insY:
         insY.append((len(s[0]), s[0]))
     elif s[1] == 'NO' and s[0] not in insN:

@@ -1,6 +1,6 @@
 while True:
     try:
-
+        
         s = input()
         if s == 'esquerda':
             print("ingles")
@@ -10,6 +10,6 @@ while True:
             print('portugues')
         else:
             print('caiu')
-
+    
     except EOFError:
         break
