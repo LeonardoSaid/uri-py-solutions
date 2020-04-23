@@ -6,7 +6,7 @@ c = float(s[2])
 if ((b > a)and(b > c)):
   aux = a;
   a = b;
-  b = aux;
+  b = aux; 
 elif ((c > a)and(c > b)):
   aux = a;
   a = c;

@@ -1,3 +1,3 @@
-A = int(input(""))
-B = int(input(""))
-print("X = %d" %(A+B))
+a = int(input())
+b = int(input())
+print("X = %d" % (a+b))

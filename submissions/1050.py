@@ -1,6 +1,6 @@
 n = input()
 
-dic = {
+dic = { 
   '61' : 'Brasilia',
   '71' : 'Salvador',
   '11' : 'Sao Paulo',
