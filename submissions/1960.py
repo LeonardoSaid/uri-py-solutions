@@ -1,0 +1,43 @@
+n = int(input())
+
+while n > 0:
+    if n >= 1000:
+        n -= 1000
+        print('M', end='')
+    elif n >= 900:
+        n -= 900
+        print('CM', end='')
+    elif n >= 500:
+        n -= 500
+        print('D', end='')
+    elif n >= 400:
+        n -= 400
+        print('CD', end='')
+    elif n >= 100:
+        n -= 100
+        print('C', end='')
+    elif n >= 90:
+        n -= 90
+        print('XC', end='')
+    elif n >= 50:
+        n -= 50
+        print('L', end='')
+    elif n >= 40:
+        n -= 40
+        print('XL', end='')
+    elif n >= 10:
+        n -= 10
+        print('X', end='')
+    elif n >= 9:
+        n -= 9
+        print('IX', end='')
+    elif n >= 5:
+        n -= 5
+        print('V', end='')
+    elif n >= 4:
+        n -= 4
+        print('IV', end='')
+    elif n >= 1:
+        n -= 1
+        print('I', end='')
+print()
